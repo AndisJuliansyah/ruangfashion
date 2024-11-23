@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuangFashion.com</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="./assets/style/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" alt="Logo" style="width:200px; height: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="btn btn-light nav-link" href="https://wa.me/6285213794876?text=Halo%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" 
+                        target="_blank" id="contactButton">Hubungi Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <section id="home">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active"
+                style="background-image: url('./assets/img/header2.jpg'); height: 100vh; background-size: cover;">
+                <div class="carousel-caption">
+                    <h1>Wujudkan Mimpimu <br> Menjadi Brand Owner</h1>
+                    <p>Bersama kami membantu UMKM di Indonesia mencapai tujuan.</p>
+                </div>
+            </div>
+            <div class="carousel-item"
+                style="background-image: url('./assets/img/header.jpg'); height: 100vh; background-size: cover;">
+                <div class="carousel-caption">
+                    <h1>Bisnis Menguntungkan, <br>Peluang Tanpa Batas.</h1>
+                    <p>Jadilah bagian dari kami, untuk menjadikan hari-hari mu lebih bermakna.</p>
+                </div>
+            </div>
+            <div class="carousel-item"
+                style="background-image: url('./assets/img/header3.jpg'); height: 100vh; background-size: cover;">
+                <div class="carousel-caption">
+                    <h1>Dengan Dropshipping, <br>Setiap Orang Bisa Jadi Pengusaha</h1>
+                    <p>Bangun pasif income, sehingga tidur pun dibayar.</p>
+                </div>
+            </div>
+        </div>
+        <!-- The next and previous buttons are hidden by CSS -->
+    </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Layanan Kami</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="card service-card">
+                        <span class="service-label">Segera Hadir</span>
+                        <img src="./assets/img/konsulprod.jpg" class="card-img-top" alt="Service 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Konsul & Produksi</h5>
+                            <p class="card-text">Mewujudkan dalam memiliki brand sendiri menjadi lebih mudah.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card service-card">
+                        <span class="service-label">Segera Hadir</span>
+                        <img src="./assets/img/reseller.jpg" class="card-img-top" alt="Service 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Reseller</h5>
+                            <p class="card-text">Memberiikan peluang usaha dengan cara yang lebih memberikan keuntungan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card service-card">
+                        <span class="service-label">Segera Hadir</span>
+                        <img src="./assets/img/dropshiper.jpg" class="card-img-top" alt="Service 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Dropshipper & Affiliate</h5>
+                            <p class="card-text">Membantu pelanggan dalam membangun pasif income dan membuat waktu menjadi sebuah penghasilan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5"
+        style="background: url('./assets/img/background2.jpg') no-repeat center center; background-size: cover;">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- About Us Image -->
+                <div class="col-lg-6">
+                    <img src="./assets/img/logos.jpeg" alt="About Us Image"
+                        class="img-fluid rounded shadow-lg">
+                </div>
+                <!-- About Us Description -->
+                <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-right">
+                    <h2 class="display-4 text-white">Tentang Kami</h2>
+                    <p data-aos="fade-right" data-aos-delay="300" class="lead text-white">
+                        Ruang Fashion adalah konveksi yang telah berdiri sejak 1950 dan diwariskan turun-temurun dari keluarga kami. Berawal dari usaha kecil di Soreang, Kabupaten Bandung, kami terus berkembang dengan menjaga kualitas dan kepercayaan pelanggan. Dengan pengalaman lebih dari 70 tahun, kami menawarkan produk fashion berkualitas yang mengikuti tren terkini namun tetap mempertahankan nilai tradisional.</p>
+                    <p data-aos="fade-right" data-aos-delay="600" class="text-white">Kami bangga menjadi bagian dari warisan keluarga dan berkomitmen untuk memberikan pelayanan terbaik dengan produk yang dapat diandalkan. Bergabunglah bersama kami untuk merasakan kualitas yang telah teruji selama puluhan tahun.</p>
+                    <a data-aos="fade-right" data-aos-delay="800" href="https://wa.me/6285213794876?text=Halo%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" 
+                    target="_blank" class="btn btn-light text-white btn-lg mt-3">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Advantages Section -->
+    <section id="advantages" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Hanya Kami !!</h2>
+            <div class="row text-center">
+                <!-- Advantage 1 -->
+                <div class="col-md-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-lightning-fill" style="font-size: 3rem; color: #F3CB51;"></i>
+                    </div>
+                    <h4 class="h5">Pelayanan Cepat</h4>
+                    <p>Ruang Fashion selalu ingin memberikan pelayanan yang sangat maksimal dalam menanggapi kebutuhan pelanggan.</p>
+                </div>
+                <!-- Advantage 2 -->
+                <div class="col-md-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-graph-up-arrow" style="font-size: 3rem; color: #F3CB51;"></i>
+                    </div>
+                    <h4 class="h5">Kualitas Premium</h4>
+                    <p>Ruang Fashion akan menjamin kualitas produksi sesuai dengan keinginan pelanggan serta terbaik.</p>
+                </div>
+                <!-- Advantage 3 -->
+                <div class="col-md-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-people-fill" style="font-size: 3rem; color: #F3CB51;"></i>
+                    </div>
+                    <h4 class="h5">Tenaga Penjahit Handal</h4>
+                    <p>Ruang Fashion memiliki tenaga ahli yang memiliki jam terbang serta kerapihan dan berpengalaman dalam proses penjahitan.</p>
+                </div>
+                <!-- Advantage 4 -->
+                <div class="col-md-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-cash-stack" style="font-size: 3rem; color: #F3CB51;"></i>
+                    </div>
+                    <h4 class="h5">Harga Terbaik</h4>
+                    <p>Ruang Fashion menawarkan harga yang sangat bersaing dan minimum order di kami 12pcs.</p>
+                </div>
+                <!-- Advantage 5 -->
+                <div class="col-md-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-chat-left-dots-fill" style="font-size: 3rem; color: #F3CB51;"></i>
+                    </div>
+                    <h4 class="h5">Memberikan Solusi</h4>
+                    <p>Ruang Fashion akan membantu pelanggan dalam mewujudkan keinginan dengan pengalaman serta ide kreatif yang kami miliki.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bs-flow">
+
+        <div id="business-flow" class="container py-5">
+            <h2 class="text-center mb-5" data-aos="fade-in">Cara Melakukan Order</h2>
+            <div class="row">
+                <!-- Step 1 -->
+                <div class="col-md-4 mb-4" data-aos="zoom-in">
+                    <div class="card text-center p-3 shadow">
+                        <div class="step-icon">
+                            <img src="./assets/img/order.PNG" alt="Step 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Step 1</h5>
+                            <p class="card-text">Hubungi cs online kami.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="800">
+                    <div class="card text-center p-3 shadow">
+                        <div class="step-icon">
+                            <img src="./assets/img/Qc.PNG" alt="Step 2">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Step 2</h5>
+                            <p class="card-text">Konsultasikan kebutuhan, agar kami beri solusi.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="1400">
+                    <div class="card text-center p-3 shadow">
+                        <div class="step-icon">
+                            <img src="./assets/img/konfirmasi.PNG" alt="Step 3">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Step 3</h5>
+                            <p class="card-text">Pemberian sampel jika OK (ttd perjanjian dan pembayaran DP).</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="2000">
+                    <div class="card text-center p-3 shadow">
+                        <div class="step-icon">
+                            <img src="./assets/img/proses.PNG" alt="Step 4">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Step 4</h5>
+                            <p class="card-text">Pengerjaan produksi dengan jumlah dan desain disepakati.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="2600">
+                    <div class="card text-center p-3 shadow">
+                        <div class="step-icon">
+                            <img src="./assets/img/qcfinal.PNG" alt="Step 5">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Step 5</h5>
+                            <p class="card-text">Quality Control bersama customer.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="3000">
+                    <div class="card text-center p-3 shadow">
+                        <div class="step-icon">
+                            <img src="./assets/img/send.PNG" alt="Step 6">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Step 6</h5>
+                            <p class="card-text">Pelunasan dan pengiriman produk.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pelayanan Gratis Section -->
+    <section id="free-services" class="py-3" style="background-color: #F3CB51; color: white;">
+        <div class="container">
+            <h2 class="text-center mb-3">Pelayanan Gratis Kami</h2>
+            <div class="row text-center">
+                <!-- Service 1 -->
+                <div class="col-md-2 mb-2">
+                    <i class="bi bi-chat-left-text-fill" style="font-size: 2rem; color: #f8f9fa;"></i>
+                    <h4 class="mt-2 mb-1">Konsultasi Gratis</h4>
+                </div>
+                <!-- Service 2 -->
+                <div class="col-md-2 mb-2">
+                    <i class="bi bi-bar-chart-fill" style="font-size: 2rem; color: #f8f9fa;"></i>
+                    <h4 class="mt-2 mb-1">Sampel Produk</h4>
+                </div>
+                <!-- Service 3 -->
+                <div class="col-md-2 mb-2">
+                    <i class="bi bi-pencil-fill" style="font-size: 2rem; color: #f8f9fa;"></i>
+                    <h4 class="mt-2 mb-1">Desain Kustom</h4>
+                </div>
+                <!-- Service 4 -->
+                <div class="col-md-2 mb-2">
+                    <i class="bi bi-gear-fill" style="font-size: 2rem; color: #f8f9fa;"></i>
+                    <h4 class="mt-2 mb-1">Pengiriman</h4>
+                </div>
+                <!-- Service 5 -->
+                <div class="col-md-2 mb-2">
+                    <i class="bi bi-file-earmark-text-fill" style="font-size: 2rem; color: #f8f9fa;"></i>
+                    <h4 class="mt-2 mb-1">Packaging Menarik</h4>
+                </div>
+                <!-- Service 6 -->
+                <div class="col-md-2 mb-2">
+                    <i class="bi bi-person-circle" style="font-size: 2rem; color: #f8f9fa;"></i>
+                    <h4 class="mt-2 mb-1">Visit Jabodebek</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Review Section -->
+    <section id="gallery" class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <h2 class="text-center text-black mb-4">Gallery Review</h2>
+            <div class="row">
+                <!-- Review 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <a href="https://via.placeholder.com/600x400" data-bs-toggle="lightbox"
+                            data-bs-target="#gallery-review" class="d-block">
+                            <img src="./assets/img/gallery.jpg" class="img-fluid rounded shadow"
+                                alt="Review 1">
+                        </a>
+                    </div>
+                </div>
+                <!-- Review 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <a href="https://via.placeholder.com/600x400/444" data-bs-toggle="lightbox"
+                            data-bs-target="#gallery-review" class="d-block">
+                            <img src="./assets/img/gallery2.jpg" class="img-fluid rounded shadow"
+                                alt="Review 2">
+                        </a>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <a href="https://via.placeholder.com/600x400/666" data-bs-toggle="lightbox"
+                            data-bs-target="#gallery-review" class="d-block">
+                            <img src="./assets/img/gallery3.jpg" class="img-fluid rounded shadow"
+                                alt="Review 3">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-menu mb-3">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="container">
+                <p>Ruang Fashion | Soreang, Kabupaten Bandung | Tel: (022) 12345678</p>
+                <p>&copy; 2024 created by Andis Juliansyah, All Rights Reserved.</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="bi bi-tiktok"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" onclick="scrollToTop()">↑</button>
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.1.1/dist/index.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Durasi animasi dalam milidetik
+            easing: 'ease-in-out', // Efek easing
+            once: true // Animasi hanya berjalan sekali
+        });
+    </script>
+
+    <script>
+        AOS.init({
+            duration: 1200, // Waktu animasi lebih panjang untuk efek dramatis
+            easing: 'ease-in-out', // Easing halus untuk transformasi
+            delay: 100, // Tambahan waktu jeda pada elemen berikutnya
+        });
+    </script>
+</body>
+
+</html>
